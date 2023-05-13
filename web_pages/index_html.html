@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+   <meta charset='UTF-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+   <style>
+     * {
+       box-sizing: border-box;
+       padding: 0;
+       margin: 0;
+     }
+     body {
+       background-color: rgb(243, 187, 119);
+       align-content: center;
+       align-self: center;
+       align-items: center;
+       border-style: none;
+     }
+     .container {
+       display: flex;
+       justify-content: center;
+     }
+     .btn {
+       background-color: rgb(255, 98, 98);
+       align-content: center;
+       align-self: center;
+       align-items: center;
+       border-style: none;
+       width: 45vw;
+       margin: 10px 10px 10px;
+       font-family: Georgia, ' Times New Roman ', Times, serif;
+       border-radius: 25px;
+       font-size: 50px;
+       padding: 5px 5px;
+       color: azure;
+       height: 10.5rem;
+     }
+     a {
+       text-decoration: none;
+       font-family: Georgia, ' Times New Roman ', Times, serif;
+       border-radius: 25px;
+       font-size: 40px;
+       color: azure;
+     }
+     .btn:hover {
+       transition: 0.5S;
+       background-color: rgb(239, 70, 70);
+     }
+     nav {
+       background-color: rgb(255, 136, 0);
+       height: 60px;
+       width: 100vw;
+       display: flex;
+       border-radius: 0px;
+     }
+     .nav-list {
+       display: flex;
+       list-style: none;
+       padding-top: 15px;
+       color: aliceblue;
+     }
+     .nav-items {
+         font-size: 20px;
+         justify-content: center;
+         height: fit-content;
+         padding-left: 50vw;
+       }
+     .nav-items1 {
+       font-size: 30px;
+       justify-content: center;
+       height: fit-content;
+     }
+     @media (max-width: 600px) {
+       .btn {
+         background-color: rgb(255, 98, 98);
+         align-content: center;
+         align-self: center;
+         align-items: center;
+         border-style: none;
+         width: 80vw;
+         margin: 10px 10px 10px;
+         height: 10.5rem;
+         font-family: Georgia, ' Times New Roman ', Times, serif;
+         border-radius: 25px;
+         font-size: 50px;
+         padding: 5px 5px;
+         color: azure;
+       }
+       .container {
+       display: flex;
+       justify-content: center;
+       justify-self: center;
+       align-content: center;
+       align-self: center;
+       align-items: center;
+       flex-direction: column;
+       }
+       .nav-list {
+         display: flex;
+         list-style: none;
+         padding-top: 10px;
+         color: aliceblue;
+       }
+       .nav-items {
+         font-size: 20px;
+         height: fit-content;
+         padding-left: 15vh;
+       }
+       .nav-items1 {
+         font-size: 30px;
+         height: fit-content;
+       }
+       .fas{
+         justify-items: left;
+         padding-left: 20vw;
+       }}
+     i{
+       justify-items: left;
+       padding-right: 30px;
+     }
+   </style>
+   <title>automation</title>
+ </head>
+
+ <body>
+   <nav class='nav'>
+     <ul class='nav-list'>
+       <li class='nav-items1'>AUTOMAX</li>
+       <li class='nav-items'>product ID : http://ESP8266.localhost/</li>
+     </ul>
+   </nav>
+   <div class='container'>
+     <a href='/OnSeEyTq8QiEkRlHe1JsIsOwIm9AuHuHfEc/SpEsOyUy5OmOtNtLe8NjMmNtBh1UvNrAyCd/FvMeYeYk1AtOgIyVi/redon'><button class='btn'>RED ON</button></a>
+     <a href='/ZwMmTuMv6AiHfEsOy4JaZeIsGr5KwRaZmEf/ZwIwOmKx2MtNmDaKt8TzJrEiYl6CqVcGeZp/UfUnKoYj8JcIbQiPe/redoff'><button class='btn'>RED OFF</button></a>
+     <br>
+    </div>
+    <div class='container'>
+      <a href='/MiEkUzHf1NiDbCzBj5DrFdFeEu2KjSnAxCj/DbMvWqYt4TfBeBeCy7RuUiLjJn5VlLwPyNg/FiPwIvWd2LjIgPlDl/blueon'><button class='btn'>BLUE ON</button></a>
+      <a href='/HtUiPlWj3EsHlLkWs1NzGjNvUf6NpVnXnEb/NzYbQnSg2EdCuZzCv3CvWlNgNw4NeQaKsSv/HrFbPzPg2PrRmLsEb/blueoff'><button class='btn'>BLUE OFF</button></a>
+      <br>
+    </div>
+   <div class='container'>
+     <a href='/QnSeKkCj5GpMlDcQx5JwRgQuZp4FrChEbMf/PaHqZgLd8VbJwPwKo3LpQqXuJz8AzXhLuLz/EsIaFoIh5CnMcXiTp/allon'><button class='btn'>ALL ON</button></a>
+     <a href='/XtVfQvGm2VyPdVdRh9SwMrCbKl6VsXtJxDm/LjGcSiJr6ZgPvWjTa3FuJpAgGp4UtUoHyOw/ZqSxAwFq5YtEsKvIt/alloff'><button class='btn'>ALL OFF</button></a>
+     <br>
+   </div>
+ </body>
+ </html>
