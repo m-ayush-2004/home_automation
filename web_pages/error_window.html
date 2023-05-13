@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+  <html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>ERROR MESSAGE</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+        .inner_container{
+            display:flex;
+            width: 95vw;
+            height: 15vw;
+            border-radius:20px ;
+            border: dashed rgba(232, 73, 73, 0.722);
+            background-color: rgba(250, 56, 22, 0.296);
+            justify-content: center;
+            align-items: center;
+        }
+        .error{
+            text-align: center;
+            color: crimson;
+        }
+        a{
+            text-align: center;
+            color: crimson;
+            padding-left: 10px;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+                @media only screen and (min-height: 700px) {
+            /* For tablets: */
+            .col-s-1 {height: 8.33%;}
+            .col-s-2 {height: 16.66%;}
+            .col-s-3 {height: 25%;}
+            .col-s-4 {height: 33.33%;}
+            .col-s-5 {height: 41.66%;}
+            .col-s-6 {height: 50%;}
+            .col-s-7 {height: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {height: 75%;}
+            .col-s-10 {height: 83.33%;}
+            .col-s-11 {height: 91.66%;}
+            .col-s-12 {height: 100%;}
+        }
+        @media only screen and (min-height: 900px) {
+            /* For tablets: */
+            .col-1 {height: 8.33%;}
+            .col-2 {height: 16.66%;}
+            .col-3 {height: 25%;}
+            .col-4 {height: 33.33%;}
+            .col-5 {height: 41.66%;}
+            .col-6 {height: 50%;}
+            .col-7 {height: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {height: 75%;}
+            .col-10 {height: 83.33%;}
+            .col-11 {height: 91.66%;}
+            .col-12 {height: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <div class='inner_container col-s-2 col-1'>
+            <p class='error'>
+                <strong>ERROR 404 : </strong>some error might have occured or recived incorrect server request
+
+                <br>
+                <br>
+                please click this link to enter server again!
+                <a href='/'> click me </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
